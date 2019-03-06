@@ -31,7 +31,7 @@ li {
     display: -ms-flexbox;
     display: flex; }
   #main-nav li {
-    width: 14%; }
+    width: 16.66667%; }
   #main-nav a {
     color: #f8f9fb;
     text-decoration: none;
@@ -88,3 +88,26 @@ section h1 {
     font-size: 20px;
     max-width: 500px;
     margin: 60px 0; }
+
+#services {
+  margin: 60px; }
+  #services ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  #services li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  #services img {
+    width: 60%;
+    margin: 20px 20%; }
+  #services a {
+    text-decoration: none;
+    color: #032f3e;
+    font-weight: bold; }
+    #services a:hover {
+      color: red; }
